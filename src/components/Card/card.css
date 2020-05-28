@@ -1,0 +1,49 @@
+.card-block{
+    position: static;
+    margin-top: 20px;
+}
+
+#media-block{
+     height: 3rem;
+     margin-bottom: 30px;
+}
+
+#card-heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color: blueviolet;
+   
+}
+
+#dish-heading{
+
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 3.7vw;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+#dish-content{
+    font-size: 3.0vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    filter: opacity(60%);
+    position: static;
+    width: 80%;
+    margin-top: -10px;
+    line-height: 3vh;
+}
+
+#dish-price{
+    font-size: 5vw;
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    filter: opacity(60%);
+    position: relative;
+    color: #fe5f00ff;
+    margin-top: -65px;
+   
+}

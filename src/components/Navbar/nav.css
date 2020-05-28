@@ -1,0 +1,42 @@
+/* HEX */
+/* $color1: #48119cff;
+$color2: #0a1128ff;
+$color3: #f7f3e3ff;
+$color4: #fe5f00ff;
+$color5: #33312eff; */
+/* #611BE7 */
+
+
+.nav-bar{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: #611BE7 2px solid;
+    background-color: cornsilk;
+}
+
+
+#nav-brand{
+    color:#611BE7 ;
+    font-size: 1.2rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+#nav-toggle:focus{
+    border: 2px solid;
+   border-color: #611BE7;
+}
+#nav-toggle{
+    border: 2px solid;
+   border-color: #611BE7;
+}
+
+
+#nav-link:focus{
+   color: #611BE7;
+}
+#nav-link:hover{
+   color: #611BE7;
+}
+
+
