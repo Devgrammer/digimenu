@@ -121,7 +121,26 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Tinga de Pollo Res</p>
+                      <p id="dish-heading">Tinga de Pollo</p>
+                      <p id="dish-content">
+                        A blend of chiles and spices simmered with beef stew
+                        meat.
+                      </p>
+                      <p id="dish-price"> $28</p>
+                    </Media.Body>
+                  </Media>
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/tingaderes.jfif"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Tinga de Res</p>
                       <p id="dish-content">
                         A blend of chiles and spices simmered with beef stew
                         meat.
@@ -214,12 +233,31 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Tinga de Pollo o Res</p>
+                      <p id="dish-heading">Tinga de Pollo</p>
                       <p id="dish-content">
                         A blend of chiles and spices simmered with beef stew
                         meat.
                       </p>
                       <p id="dish-price"> $0</p>
+                    </Media.Body>
+                  </Media>
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/tingaderes.jfif"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Tinga de Res</p>
+                      <p id="dish-content">
+                        A blend of chiles and spices simmered with beef stew
+                        meat.
+                      </p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -343,12 +381,31 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Verdes o Rojas</p>
+                      <p id="dish-heading">Verdes</p>
                       <p id="dish-content">
                         A blend of chiles and spices simmered with beef stew
                         meat.
                       </p>
                       <p id="dish-price"> $80</p>
+                    </Media.Body>
+                  </Media>
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/enchiladasrojas.jpg"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Rojas</p>
+                      <p id="dish-content">
+                        A blend of chiles and spices simmered with beef stew
+                        meat.
+                      </p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -470,7 +527,26 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Pollo o Res</p>
+                      <p id="dish-heading">Pollo</p>
+                      <p id="dish-content">
+                        A blend of chiles and spices simmered with beef stew
+                        meat.
+                      </p>
+                      <p id="dish-price"> $80</p>
+                    </Media.Body>
+                  </Media>
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/milanesaderes.jpg"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Res</p>
                       <p id="dish-content">
                         A blend of chiles and spices simmered with beef stew
                         meat.
@@ -550,18 +626,18 @@ function Menu() {
             </Card.Header>
             <Accordion.Collapse eventKey="10">
               <Card.Body>
-                {/* <ul className="list-unstyled">
+                <ul className="list-unstyled">
                   <Media as="li" id="media-block">
                     <Image
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/Birria.jpg"
+                      src="./img/papasfritas.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Pollo o Res</p>
+                      <p id="dish-heading">Papas fritas</p>
                       <p id="dish-content">
                         A blend of chiles and spices simmered with beef stew
                         meat.
@@ -569,7 +645,26 @@ function Menu() {
                       <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
-                </ul> */}
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/ensalada.jpg"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Ensalada</p>
+                      <p id="dish-content">
+                        A blend of chiles and spices simmered with beef stew
+                        meat.
+                      </p>
+                      <p id="dish-price"> $80</p>
+                    </Media.Body>
+                  </Media>
+                </ul>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
