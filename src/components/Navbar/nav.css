@@ -10,7 +10,8 @@ $color5: #33312eff; */
 .nav-bar{
     font-family: 'Roboto', sans-serif;
     border-bottom: #611BE7 2px solid;
-    background-color: cornsilk;
+    background-color: #ffffff;
+    position: relative;
 }
 
 

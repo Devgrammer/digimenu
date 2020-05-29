@@ -1,4 +1,53 @@
-.menu-block{
-    position: relative;
-    top: 10vh;
+.card-block{
+    z-index: 0;
+    text-align: center;
+}
+
+#media-block{
+    
+     position: relative;
+     text-align: left;
+     
+}
+
+#card-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #611BE7;
+}
+
+#dish-heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 3.7vw;
+    font-weight: 600;
+    color: #611BE7; 
+}
+
+#dish-content{
+    font-size: 3.0vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    filter: opacity(60%);
+    width: 70%;
+    position: absolute;
+    top: 2rem;
+    line-height: 3vh;
+    
+}
+
+#dish-price{
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    filter: opacity(60%);
+    position:absolute;
+    color: #fe5f00ff;
+    right: 0px;
+     top: 1rem;
+  
+    
+   
 }

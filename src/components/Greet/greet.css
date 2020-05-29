@@ -1,0 +1,32 @@
+#greet-block{
+    position:initial;
+    font-size: 2em;
+   margin-top: 5rem;
+   z-index: 1;
+   padding: 1rem;
+   
+}
+
+#quote1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+    float: center;
+}
+#quote2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    float: center;
+    color:#611BE7 ;
+}
+
+#rest-logo{
+    position: initial;
+    text-align: center;
+    padding-bottom: 1rem;
+}

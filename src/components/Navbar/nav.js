@@ -6,9 +6,14 @@ import './nav.css'
   function NavBar() {
   return (
     <Fragment>
-      <Navbar collapseOnSelect fixed="top" className="nav-bar" expand="lg">
+      <Navbar
+        collapseOnSelect
+        fixed="top"
+        className="nav-bar"
+        expand="lg"
+      >
         <Navbar.Brand id="nav-brand" href="#home">
-          GRANDPA'S KITCHEN
+          LA COCINA DE LOS ABUELOS
         </Navbar.Brand>
         <Navbar.Toggle id="nav-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
