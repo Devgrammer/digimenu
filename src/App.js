@@ -3,6 +3,8 @@ import "./App.css";
 import NavBar from "./components/Navbar/nav";
 import Menu from "./components/Menu/menu";
 import Greet from "./components/Greet/greet";
+import Footer from "./components/Footer/footer";
+import BreakMenu from "./components/Breakfast/break";
 import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
@@ -16,7 +18,6 @@ function App() {
           <Greet />
         </Row>
         <Row className="justify-content-center">
-          
           <div id="heading">
             <p id="head-txt">Menu</p>
           </div>
@@ -27,6 +28,19 @@ function App() {
           <Col>
             <Menu />
           </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <div id="heading">
+            <p id="head-txt">Desayunos</p>
+          </div>
+        </Row>
+        <Row className="justify-content-center">
+          <Col>
+            <BreakMenu />
+          </Col>
+        </Row>
+        <Row>
+          <Footer />
         </Row>
       </Container>
     </>

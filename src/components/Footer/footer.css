@@ -1,0 +1,13 @@
+.footer-block{
+    display: block;
+    position: relative;
+    width: max-width;
+    height: 20em;
+    background-color: #33312eff;
+    margin-top: 10rem;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    padding: 5rem;
+}

@@ -1,0 +1,10 @@
+.bcard-block{
+    z-index: 0;
+    text-align: center;
+}
+
+#bmedia-block{
+     position: relative;
+     text-align: left;
+     
+}
