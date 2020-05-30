@@ -12,6 +12,7 @@ $color5: #33312eff; */
     border-bottom: #611BE7 2px solid;
     background-color: #ffffff;
     position: relative;
+    width: auto;
 }
 
 
@@ -23,12 +24,12 @@ $color5: #33312eff; */
     font-style: bold;
 }
 
-#nav-toggle:focus{
-    border: 2px solid;
+#nav-toggle::after{
+    border:none;
    border-color: #611BE7;
 }
 #nav-toggle{
-    border: 2px solid;
+    border: none;
    border-color: #611BE7;
 }
 
