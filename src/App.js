@@ -12,7 +12,8 @@ function App() {
     <>
       <Container fluid>
         <Row>
-          <NavBar />
+          <Col><NavBar /></Col>
+          
         </Row>
         <Row className="justify-content-center">
           <Greet />

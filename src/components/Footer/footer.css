@@ -1,7 +1,7 @@
 .footer-block{
     display: block;
-    position: relative;
-    width: max-width;
+    position: static;
+    width: 100%git ;
     height: 20em;
     background-color: #33312eff;
     margin-top: 10rem;
