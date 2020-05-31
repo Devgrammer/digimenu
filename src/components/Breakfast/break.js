@@ -26,35 +26,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/Birria.jpg"
+                      src="./img/naranja.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Naranja</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/Pancita.jpg"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Zanahoria</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Jugo fresco de Naranja</p>
                       <p id="dish-price"> $20</p>
                     </Media.Body>
                   </Media>
@@ -64,14 +42,30 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/pozole.jpg"
+                      src="./img/zanahoria.jpg"
+                      alt="Generic placeholder"
+                      rounded
+                    />
+                    <Media.Body>
+                      <p id="dish-heading">Zanahoria</p>
+                      <p id="dish-content">Jugo fresco de Zanahoria</p>
+                      <p id="dish-price"> $20</p>
+                    </Media.Body>
+                  </Media>
+                  <hr />
+                  <Media as="li" id="media-block">
+                    <Image
+                      width={64}
+                      height={64}
+                      className="mr-3"
+                      src="./img/mixto.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Mixto</p>
-                      <p id="dish-content">Maczia, Surtida o Pollo</p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Jugo mixto (naranja y zanahoria)</p>
+                      <p id="dish-price"> $20</p>
                     </Media.Body>
                   </Media>
                 </ul>
@@ -97,15 +91,14 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/pata.jfif"
+                      src="./img/huevosestrellados.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Estrellados</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Huevos estrellados tradicionales de los abuelos
                       </p>
                       <p id="dish-price"> $50</p>
                     </Media.Body>
@@ -116,15 +109,15 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingadepollo.jfif"
+                      src="./img/huevos-rancheros.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Rancheros</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Huevos estrellados servidos sobre una tortilla
+                        ligeramente tostada y bañados con salsa roja o verde
                       </p>
                       <p id="dish-price"> $60</p>
                     </Media.Body>
@@ -135,17 +128,18 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingaderes.jfif"
+                      src="./img/huevos divorciados.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Divorciados</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Huevos estrellados servidos sobre una tortilla
+                        ligeramente tostada y bañados con salsa roja y salsa
+                        verde
                       </p>
-                      <p id="dish-price"> $28</p>
+                      <p id="dish-price"> $60</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -154,16 +148,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingaderes.jfif"
+                      src="./img/huevos poblanos.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Poblanos</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Sincronizada con Mole</p>
                       <p id="dish-price"> $70</p>
                     </Media.Body>
                   </Media>
@@ -173,35 +164,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingaderes.jfif"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">(Sincronizada C/Mole)</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/tingaderes.jfif"
+                      src="./img/huevos-revueltos.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Revueltos</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Jamon, Chorizo, Champiñon, Tocino</p>
                       <p id="dish-price"> $70</p>
                     </Media.Body>
                   </Media>
@@ -211,37 +180,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingaderes.jfif"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">
-                        (Jamón, Chorizo, Champiñon, Tocino)
-                      </p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $28</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/tingaderes.jfif"
+                      src="./img/Omelette.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Omelette</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Jamon, Chorizo, Champiñon, Tocino</p>
                       <p id="dish-price"> $75</p>
                     </Media.Body>
                   </Media>
@@ -268,15 +213,14 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/chicharron.jfif"
+                      src="./img/chilaquiles sencillos.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Sencillos</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Los tradicionales chilaquiles de los abuelos
                       </p>
                       <p id="dish-price"> $60</p>
                     </Media.Body>
@@ -287,15 +231,15 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/queso.jfif"
+                      src="./img/chilaquiles pollo-o-bistec.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Pollo</p>
+                      <p id="dish-heading">Pollo o Bisteck</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Los tradicionales chilaquiles de los abuelos acompañados
+                        de Pollo o Bistec
                       </p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
@@ -306,34 +250,15 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/quesadilla champiñones.jfif"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Bisteck</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $80</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/tingadepollo.jfif"
+                      src="./img/chilaquiles- cecina.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Cecina</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Los tradicionales chilaquiles de los abuelos acompañados
+                        de Cecina.
                       </p>
                       <p id="dish-price"> $90</p>
                     </Media.Body>
@@ -344,17 +269,17 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/tingaderes.jfif"
+                      src="./img/chilaquiles tecolotes.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Tecolotes</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Los tradicionales chilaquiles de los abuelos acompañados
+                        de Tecolotes
                       </p>
-                      <p id="dish-price"> $28</p>
+                      <p id="dish-price"> $75</p>
                     </Media.Body>
                   </Media>
                 </ul>
@@ -385,12 +310,9 @@ function BreakMenu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">
-                        Torta de chilaquiles con milanesa de pollo
-                      </p>
+                      <p id="dish-heading">Torta de la Abuela</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Torta de chilaquiles con milanesa de pollo
                       </p>
                       <p id="dish-price"> $90</p>
                     </Media.Body>
@@ -425,8 +347,7 @@ function BreakMenu() {
                     <Media.Body>
                       <p id="dish-heading">Verdes</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas verdes de los abuelos
                       </p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
@@ -444,8 +365,7 @@ function BreakMenu() {
                     <Media.Body>
                       <p id="dish-heading">Rojas</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas rojas de los abuelos
                       </p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
@@ -463,8 +383,7 @@ function BreakMenu() {
                     <Media.Body>
                       <p id="dish-heading">Mole</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas de mole de los abuelos
                       </p>
                       <p id="dish-price"> $90</p>
                     </Media.Body>
@@ -492,16 +411,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/chicharron.jfif"
+                      src="./img/molletes sencillos.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Sencillos</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Molletes sencillos de los abuelos</p>
                       <p id="dish-price"> $55</p>
                     </Media.Body>
                   </Media>
@@ -511,54 +427,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/chicharron.jfif"
+                      src="./img/molletes - jamon tocino.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Jamón</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $70</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/chicharron.jfif"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Tocino</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $70</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/chicharron.jfif"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Chorizo</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-heading">Jamon, Tocino o Chorizo</p>
+                      <p id="dish-content">Acompaña tus molletes al gusto</p>
                       <p id="dish-price"> $70</p>
                     </Media.Body>
                   </Media>
@@ -585,16 +460,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/sopes.jpg"
+                      src="./img/hotcakes.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
                       <p id="dish-heading">Hot Cakes</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Molletes sencillos de los abuelos</p>
                       <p id="dish-price"> $50</p>
                     </Media.Body>
                   </Media>
@@ -611,8 +483,8 @@ function BreakMenu() {
                     <Media.Body>
                       <p id="dish-heading">Refresco</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Coca, Coca Light, Sin Azucar, Sidral, Sprite, Fanta,
+                        Fresca y Ciel
                       </p>
                       <p id="dish-price"> $20</p>
                     </Media.Body>
@@ -623,35 +495,13 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/sopes.jpg"
+                      src="./img/descarga.jpeg"
                       alt="Generic placeholder"
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Café</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $25</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/sopes.jpg"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Te</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-heading">Café o Té</p>
+                      <p id="dish-content">Cafe americano o té de manzanilla</p>
                       <p id="dish-price"> $25</p>
                     </Media.Body>
                   </Media>

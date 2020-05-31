@@ -33,10 +33,10 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Birria</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Birria para adentrarnos en la cocina tradicional de
+                        Jalisco
                       </p>
-                      <p id="dish-price"> $40</p>
+                      <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -52,8 +52,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Pancita</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Nuestro tradicional Pancita de los abuelos
                       </p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
@@ -70,8 +69,10 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Pozole</p>
-                      <p id="dish-content">Maczia, Surtida o Pollo</p>
-                      <p id="dish-price"> $40</p>
+                      <p id="dish-content">
+                        Delicioso Pozole de Maciza, Surtida o Pollo
+                      </p>
+                      <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
                 </ul>
@@ -103,11 +104,8 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Pata</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Tostadas de Pata de los Abuelos</p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -123,8 +121,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Tinga de Pollo</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tostadas de Tinga de Pollo de los Abuelos
                       </p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
@@ -142,8 +139,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Tinga de Res</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tostadas de Tinga de Res de los Abuelos
                       </p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
@@ -178,10 +174,9 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Chicharron Prensado</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Quesadillas de chicharrón prensado
                       </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -196,11 +191,8 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Queso</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Quesadillas de queso</p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -215,10 +207,7 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Champinones</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Quesadillas de champiñones</p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
@@ -234,11 +223,8 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Tinga de Pollo</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Quesadillas de tinga de pollo</p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -253,10 +239,7 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Tinga de Res</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Quesadillas de tinga de res</p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
@@ -272,11 +255,8 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Papas con Chorizo</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Quesadillas de tinga de pollo</p>
+                      <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -290,12 +270,12 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Con Queso</p>
+                      <p id="dish-heading">Con Queso Extra</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Nuestras quesadillas son estilo CDMX agrega queso al
+                        gusto
                       </p>
-                      <p id="dish-price"> +$5</p>
+                      <p id="dish-price"> $5</p>
                     </Media.Body>
                   </Media>
                 </ul>
@@ -327,10 +307,7 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Pollo</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Orden de 4 flautas de pollo</p>
                       <p id="dish-price"> $75</p>
                     </Media.Body>
                   </Media>
@@ -346,11 +323,8 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Res</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-content">Orden de 4 flautas de res</p>
+                      <p id="dish-price"> $75</p>
                     </Media.Body>
                   </Media>
                 </ul>
@@ -383,8 +357,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Verdes</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas verdes de los abuelos
                       </p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
@@ -402,10 +375,9 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Rojas</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas rojas de los abuelos
                       </p>
-                      <p id="dish-price"> $28</p>
+                      <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -421,8 +393,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Mole</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Tradicionales enchiladas de mole de los abuelos
                       </p>
                       <p id="dish-price"> $90</p>
                     </Media.Body>
@@ -457,8 +428,7 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Chicharron</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Nuestras favoritas Gorditas de Chicharrón
                       </p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
@@ -491,11 +461,8 @@ function Menu() {
                       rounded
                     />
                     <Media.Body>
-                      <p id="dish-heading">Friijol, crema y queso</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-heading">Friijol, Crema y Queso</p>
+                      <p id="dish-content">Fabulosos Sopes Sencillos</p>
                       <p id="dish-price"> $28</p>
                     </Media.Body>
                   </Media>
@@ -528,10 +495,7 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Pollo</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Milanesa empanizada de Pollo</p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
@@ -547,10 +511,7 @@ function Menu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Res</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
+                      <p id="dish-content">Milanesa empanizada de Res</p>
                       <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
@@ -584,10 +545,10 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Cecina</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Deliciosa Cecina Clásica de los abuelos acompañada de
+                        papas fritas o ensalada
                       </p>
-                      <p id="dish-price"> $0</p>
+                      <p id="dish-price"> $100</p>
                     </Media.Body>
                   </Media>
                   <hr />
@@ -603,8 +564,8 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Arrachera</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Deliciosa Arrachera acompañada de papas fritas o
+                        ensalada
                       </p>
                       <p id="dish-price"> $100</p>
                     </Media.Body>
@@ -694,8 +655,8 @@ function Menu() {
                     <Media.Body>
                       <p id="dish-heading">Refresco</p>
                       <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
+                        Coca, Coca Light, Sin Azucar, Sidral, Sprite, Fanta,
+                        Fresca y Ciel
                       </p>
                       <p id="dish-price"> $20</p>
                     </Media.Body>
