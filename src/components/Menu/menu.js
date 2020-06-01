@@ -265,7 +265,7 @@ function Menu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/Pancita.jpg"
+                      src="./img/queso.jpg"
                       alt="Generic placeholder"
                       rounded
                     />
@@ -568,61 +568,6 @@ function Menu() {
                         ensalada
                       </p>
                       <p id="dish-price"> $100</p>
-                    </Media.Body>
-                  </Media>
-                </ul>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle
-                as={Button}
-                variant="text"
-                eventKey="10"
-                id="card-heading"
-              >
-                *PAPA FRITA O ENSALADA
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="10">
-              <Card.Body>
-                <ul className="list-unstyled">
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/papasfritas.jpg"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Papas fritas</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $80</p>
-                    </Media.Body>
-                  </Media>
-                  <hr />
-                  <Media as="li" id="media-block">
-                    <Image
-                      width={64}
-                      height={64}
-                      className="mr-3"
-                      src="./img/ensalada.jpg"
-                      alt="Generic placeholder"
-                      rounded
-                    />
-                    <Media.Body>
-                      <p id="dish-heading">Ensalada</p>
-                      <p id="dish-content">
-                        A blend of chiles and spices simmered with beef stew
-                        meat.
-                      </p>
-                      <p id="dish-price"> $80</p>
                     </Media.Body>
                   </Media>
                 </ul>

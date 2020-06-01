@@ -2,8 +2,12 @@
     z-index: 0;
     text-align: center;
     position: relative;
+   
 }
 
+accordion{
+    background-color: #121212;
+}
 #media-block{
      position: relative;
      text-align: left;

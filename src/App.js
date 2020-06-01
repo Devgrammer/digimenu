@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./components/Navbar/nav";
 import Menu from "./components/Menu/menu";
 import Greet from "./components/Greet/greet";
-import Footer from "./components/Footer/footer";
+import {FooterRes, FooterOwn} from "./components/Footer/footer";
 import BreakMenu from "./components/Breakfast/break";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -12,8 +12,9 @@ function App() {
     <>
       <Container fluid>
         <Row>
-          <Col><NavBar /></Col>
-          
+          <Col>
+            <NavBar />
+          </Col>
         </Row>
         <Row className="justify-content-center">
           <Greet />
@@ -40,9 +41,15 @@ function App() {
             <BreakMenu />
           </Col>
         </Row>
-        <Row>
-          <Footer />
+        <Row className="footer-block">
+          <Col>
+            <FooterRes />
+          </Col>
+          <Col>
+            <FooterOwn />
+          </Col>
         </Row>
+        
       </Container>
     </>
   );

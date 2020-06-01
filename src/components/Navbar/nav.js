@@ -11,9 +11,10 @@ import './nav.css'
         fixed="top"
         className="nav-bar"
         expand="lg"
+       
       >
         <Navbar.Brand id="nav-brand" href="#home">
-          LA COCINA DE LOS ABUELOS
+          La Cocina de los Abuelos
         </Navbar.Brand>
         <Navbar.Toggle id="nav-toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

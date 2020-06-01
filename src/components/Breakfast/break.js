@@ -116,8 +116,8 @@ function BreakMenu() {
                     <Media.Body>
                       <p id="dish-heading">Rancheros</p>
                       <p id="dish-content">
-                        Huevos estrellados servidos sobre una tortilla
-                        ligeramente tostada y bañados con salsa roja o verde
+                        Huevos estrellados servidos sobre una tortilla y bañados
+                        con salsa roja o verde
                       </p>
                       <p id="dish-price"> $60</p>
                     </Media.Body>
