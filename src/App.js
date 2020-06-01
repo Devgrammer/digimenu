@@ -42,14 +42,13 @@ function App() {
           </Col>
         </Row>
         <Row className="footer-block">
-          <Col>
+          <Col >
             <FooterRes />
           </Col>
           <Col>
             <FooterOwn />
           </Col>
         </Row>
-        
       </Container>
     </>
   );
