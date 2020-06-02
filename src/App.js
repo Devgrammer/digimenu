@@ -6,6 +6,7 @@ import {Greet, SeeOff }from "./components/Greet/greet";
 import {FooterRes, FooterOwn} from "./components/Footer/footer";
 import BreakMenu from "./components/Breakfast/break";
 import { Container, Row, Col } from "react-bootstrap";
+import ChatBot from './chat'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <p id="head-txt">Menu</p>
           </div>
         </Row>
-        <Row></Row>
+        <Row><ChatBot  /></Row>
         <Row></Row>
         <Row className="justify-content-center">
           <Col>
