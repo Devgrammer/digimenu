@@ -1,12 +1,9 @@
 .footer-block{
     font-family: 'Roboto', sans-serif;
     display: block;
-    position:relative;
- 
-
+    position: absolute;;
     background-color: #33312eff;
-    margin-top: 5rem;
-    
+    width:inherit;
 }
 
 .Res-block{
@@ -67,10 +64,30 @@ a:link{
     color: #ffffff;
 }
 a:link:hover{
-    color: violet;
+    color: #1e827a;
     font-weight: 600;
 }
 #reserved{
     font-size: 0.6rem;
     filter: opacity(38%);
+}
+
+
+
+ul#social li{
+    display: inline;
+    padding: 0.4rem;
+    padding-right: 1rem;
+    margin-left: -0.5rem;
+}
+
+.icon{
+ color: white;
+ filter: opacity(60%);
+font-size: 2vw;
+}
+
+.icon:hover{
+ color: #1e827a;
+font-size: 2.5vw;
 }

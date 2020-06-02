@@ -9,7 +9,7 @@ function FooterRes() {
           <p id="res-description">
             Antojitos mexicanos y comida casera contamos con desayunos y comida
           </p>
-          <hr id="hr-rule"/>
+          <hr id="hr-rule" />
           <ul type="none">
             <li>
               <p id="res-address">
@@ -19,23 +19,26 @@ function FooterRes() {
             </li>
             <li>
               <p id="res-phone">
-                Llamanos:
-                <a href="tel:+521 442 751 2141"> +521 442 751 2141</a>
-              </p>
-            </li>
-            <li>
-              <p id="res-fb">
-                <a href="https://www.facebook.com/cocinadelosabuelosqro/ ">
-                  Danos like en facebook
+                <a href="tel:+521 442 751 2141" className="fa fa-phone-square">
+                  &nbsp; &nbsp;+521 442 751 2141
                 </a>
               </p>
             </li>
             <li>
-              <p id="res-insta">
-                <a href="https://www.instagram.com/lacocinadelosabuelos/">
-                 Regala tus corazones en nuestro Instagram
-                </a>
-              </p>
+              <ul type="none" id="social">
+                <li>
+                  <a
+                    href="https://www.facebook.com/cocinadelosabuelosqro/"
+                    className="fa fa-facebook-square icon"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/lacocinadelosabuelos/"
+                    className="fa fa-instagram icon"
+                  ></a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -54,13 +57,19 @@ function FooterOwn() {
           </li>
           <li>
             <p id="res-phone">
-              <a href="tel:+521 5533336584"> +521 5533336584</a>
+              <a href="tel:+521 5533336584" className="fa fa-phone-square">
+                {" "}
+                &nbsp; &nbsp;+521 5533336584
+              </a>
             </p>
           </li>
           <li>
             <p id="res-phone">
-              <a href="mailto:ventas.digitalizatumenu@gmail.com">
-                ventas.digitalizatumenu@gmail.com
+              <a
+                href="mailto:ventas.digitalizatumenu@gmail.com"
+                className="	fa fa-paper-plane"
+              >
+                &nbsp; &nbsp;ventas.digitalizatumenu@gmail.com
               </a>
             </p>
           </li>

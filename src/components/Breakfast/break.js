@@ -463,7 +463,7 @@ function BreakMenu() {
                     />
                     <Media.Body>
                       <p id="dish-heading">Hot Cakes</p>
-                      <p id="dish-content">Molletes sencillos de los abuelos</p>
+                      <p id="dish-content">Hot Cakes sencillos de los abuelos</p>
                       <p id="dish-price"> $50</p>
                     </Media.Body>
                   </Media>
@@ -473,7 +473,7 @@ function BreakMenu() {
                       width={64}
                       height={64}
                       className="mr-3"
-                      src="./img/sopes.jpg"
+                      src="./img/refresco.jpg"
                       alt="Generic placeholder"
                       rounded
                     />

@@ -12,12 +12,14 @@
      
 }
 
+
+
 #card-heading{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 5vw;
     font-weight: 700;
     color: #1e827a;
-   text-shadow: indigo;
+  
 }
 
 #dish-heading{
@@ -39,6 +41,8 @@
     line-height: 3vh;
     
 }
+
+
 
 #dish-price{
     font-size: 5vw;

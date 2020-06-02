@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./components/Navbar/nav";
 import Menu from "./components/Menu/menu";
-import Greet from "./components/Greet/greet";
+import {Greet, SeeOff }from "./components/Greet/greet";
 import {FooterRes, FooterOwn} from "./components/Footer/footer";
 import BreakMenu from "./components/Breakfast/break";
 import { Container, Row, Col } from "react-bootstrap";
@@ -41,6 +41,9 @@ function App() {
             <BreakMenu />
           </Col>
         </Row>
+        <Row className="justify-content-center">
+          <SeeOff />
+          </Row>
         <Row className="footer-block">
           <Col >
             <FooterRes />
