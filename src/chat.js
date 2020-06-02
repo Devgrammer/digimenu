@@ -4,7 +4,7 @@ class ChatBot extends Component {
   componentDidMount() {
     (function (d, m) {
       var kommunicateSettings = {
-        appId: "32327c05df69c6ad195eb0078ded8e189",
+        appId: "304f6ac12ebc427004c76ad7ef549720e",
         popupWidget: true,
         automaticChatOpenOnNavigation: true,
       };
