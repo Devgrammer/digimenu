@@ -1,6 +1,7 @@
 .card-block{
     z-index: 0;
     text-align: center;
+    margin-bottom: 2rem;
    
 }
 
@@ -12,18 +13,19 @@
 }
 
 #card-heading{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #611BE7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    color: #1e827a;
+   text-shadow: indigo;
 }
 
 #dish-heading{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: bold;
     font-size: 3.7vw;
     font-weight: 600;
-    color: #611BE7; 
+     color: #1e827a;
 }
 
 #dish-content{
@@ -43,9 +45,9 @@
     font-family: 'Poppins', sans-serif;
     font-style: bold;
     font-weight: 600;
-    filter: opacity(60%);
+    filter: opacity(87%);
     position:absolute;
-    color: #fe5f00ff;
+    color: #eea151;
     right: 0px;
      top: 1rem;
   
@@ -61,6 +63,14 @@ and (max-device-width : 480px) {
 /* .card-block{
    margin-left: 2.5rem;
 } */
+#dish-content{
+    width: 50%;
+    line-height: 13px;
+}
+#dish-heading{
+    font-size: 1.0rem;
+    font-weight: 600;  
+}
 }
 
 /* Smartphones (landscape) ----------- */

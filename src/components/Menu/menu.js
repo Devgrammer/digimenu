@@ -478,7 +478,7 @@ function Menu() {
                 eventKey="8"
                 id="card-heading"
               >
-                *MILANESA
+                MILANESA
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="8">
@@ -527,7 +527,7 @@ function Menu() {
                 eventKey="9"
                 id="card-heading"
               >
-                *CARNES
+                CARNES
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="9">

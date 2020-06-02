@@ -10,8 +10,8 @@ function Greet() {
            height={64*2}
           alt=" " />
         </div>
-        <p id="quote1" className='gradient-text'>Bienvenidos!</p>
-        <p id="quote2">Ser nuestro invitado</p>
+        <p id="quote1" className='gradient-text'>Comida de Tradición</p>
+        <p id="quote2">Restaurante, comida a domicilio y para llevar </p>
       </div>
     );
 }

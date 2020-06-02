@@ -59,11 +59,15 @@ function FooterOwn() {
           </li>
           <li>
             <p id="res-phone">
-              <a href="mailto:aleluna0117@gmail.com">aleluna0117@gmail.com</a>
+              <a href="mailto:ventas.digitalizatumenu@gmail.com">
+                ventas.digitalizatumenu@gmail.com
+              </a>
             </p>
           </li>
         </ul>
-        <p id="reserved">All Right Reserved <br /> La Cocina de los Albuelos 2020</p>
+        <p id="reserved">
+          All Right Reserved <br /> La Cocina de los Albuelos 2020
+        </p>
       </div>
     );
 }

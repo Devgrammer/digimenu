@@ -1,30 +1,36 @@
 #greet-block{
     position:initial;
     font-size: 2em;
-   margin-top: 5rem;
+   margin-top: 6rem;
+  
    z-index: 1;
-   padding: 1rem;
    
 }
 
 #quote1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
     text-align: center;
     line-height: 20px;
     float: center;
     display: block;
-    color: #3a7bd5;
+    
+    color: #eb4d4c;
+    /* color: #eea151;
+    color: #1e827a;
+} */
 }
 #quote2{
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 0.6rem;
+    font-weight: 800;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
     float: center;
-    color:#611BE7 ;
+    color: #1e827a;
+    text-transform: uppercase;
+    margin-top:-20px ;
   
 }
 
