@@ -43,12 +43,12 @@ function App() {
         </Row>
         <Row className="justify-content-center">
           <SeeOff />
-          </Row>
+        </Row>
         <Row className="footer-block">
-          <Col >
+          <Col xs={6}>
             <FooterRes />
           </Col>
-          <Col>
+          <Col xs={6}>
             <FooterOwn />
           </Col>
         </Row>
