@@ -71,7 +71,7 @@ $color5: #33312eff; */
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 360px) {
   #nav-link {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   #nav-brand {
     font-size: 5vw;

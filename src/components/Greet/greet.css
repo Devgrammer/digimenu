@@ -97,3 +97,11 @@ font-size: 2vw;
 padding-top: 2.5vw;
 }
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 360px) {
+ #dish-content{
+     width: 50%;
+     line-height: 13px;
+ }
+}
