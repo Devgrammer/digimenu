@@ -1,56 +1,99 @@
-#greet-block{
-    position:initial;
-    font-size: 2em;
-   margin-top: 6rem;
-  
-   z-index: 1;
-   
+#greet-block {
+  position: initial;
+  font-size: 2em;
+  margin-top: 6rem;
+  z-index: 1;
 }
 
-#quote1, #quote3{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-align: center;
-    line-height: 20px;
-    float: center;
-    display: block;
-    color: #eb4d4c;
-    /* color: #eea151;
+#quote1,
+#quote3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 20px;
+  float: center;
+  display: block;
+  color: #eb4d4c;
+  /* color: #eea151;
     color: #1e827a;
 } */
 }
-#quote2, #quote4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.6rem;
-    font-weight: 800;
-    text-align: center;
-    line-height: 30px;
-    float: center;
-    color: #1e827a;
-    text-transform: uppercase;
-    margin-top:-20px ;
-  
+#quote2,
+#quote4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 30px;
+  float: center;
+  color: #1e827a;
+  text-transform: uppercase;
+  margin-top: -20px;
 }
-#seeoff-block{
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+#seeoff-block {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
-#quote4{
-    line-height: 20px;
+#quote4 {
+  line-height: 20px;
 }
-#quote3{
-    padding-bottom: 0.5rem;
-    font-size: 5vw;
+#quote3 {
+  padding-bottom: 0.5rem;
+  font-size: 5vw;
+}
+
+#rest-logo {
+  position: initial;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  #quote2,
+  #quote4 {
+    font-size: 1.5vw;
+    margin-top: -10px;
+  }
+  #quote1,
+  #quote3 {
+    font-size: 3vw;
+  }
+}
+
+/* Smartphones ( landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 6400px) {
+#quote4 {
+font-size: 2.5vw;
+padding-top: 1vw;
+}
+}
+/* iPadPro (landscape) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+#quote4 {
+font-size: 2vw;
+padding-top: 1vw;
+}
+}
+
+/* iPadPro (portrait) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+#quote4 {
+font-size: 2.5vw;
+padding-top: 2.5vw;
+}
 }
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-
-
-
-#rest-logo{
-    position: initial;
-    text-align: center;
-    padding-bottom: 1rem;
+  #quote3 {
+    font-size: 3vw;
+  }
+#quote4 {
+font-size: 2vw;
+padding-top: 2.5vw;
+}
 }

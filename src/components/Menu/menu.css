@@ -1,132 +1,187 @@
-.card-block{
-    z-index: 0;
-    text-align: center;
-    margin-bottom: 2rem;
-   
+.card-block {
+  z-index: 0;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-#media-block{
-     position: relative;
-     text-align: left;
-     padding-left: 2.3rem;
-     
+#media-block {
+  position: relative;
+  text-align: left;
+  padding-left: 2.3rem;
 }
 
-
-
-#card-heading{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 5vw;
-    font-weight: 700;
-    color: #1e827a;
-  
+#card-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  color: #1e827a;
 }
 
-#dish-heading{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: bold;
-    font-size: 3.7vw;
-    font-weight: 600;
-     color: #1e827a;
+#dish-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: bold;
+  font-size: 3.7vw;
+  font-weight: 600;
+  color: #1e827a;
 }
 
-#dish-content{
-    font-size: 3.0vw;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    filter: opacity(60%);
-    width: 60%;
-    position: absolute;
-    top: 1.5rem;
-    line-height: 3vh;
-    
+#dish-content {
+  font-size: 3vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  filter: opacity(60%);
+  width: 60%;
+  position: absolute;
+  top: 1.5rem;
+  line-height: 3vh;
 }
 
-
-
-#dish-price{
-    font-size: 5vw;
-    font-family: 'Poppins', sans-serif;
-    font-style: bold;
-    font-weight: 600;
-    filter: opacity(87%);
-    position:absolute;
-    color: #eea151;
-    right: 0px;
-     top: 1rem;
-  
-    
-   
+#dish-price {
+  font-size: 5vw;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  filter: opacity(87%);
+  position: absolute;
+  color: #eea151;
+  right: 0px;
+  top: 1rem;
 }
-
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* .card-block{
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* .card-block{
    margin-left: 2.5rem;
 } */
-#dish-content{
+  #dish-content {
     width: 50%;
     line-height: 13px;
-}
-#dish-heading{
-    font-size: 1.0rem;
-    font-weight: 600;  
-}
+  }
+  #dish-heading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 80%;
+  }
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
+@media only screen and (min-width: 321px) and (max-width: 411px){
+ #dish-content{
+     width: 50%;
+     line-height: 15px;
+ }
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
+@media only screen and (max-width: 320px)  {
+  #dish-content{
+      font-size: 2.7vw;
+      width: 45%;
+      line-height: 10px;
+      word-wrap: break-word;
+  }
+}
+/* IPhone5/SE (landscape) ----------- */
+@media only screen and (max-width: 568px)  {
+  #dish-content{
+      font-size: 2.7vw;
+      width: 60%;
+      line-height: 10px;
+      word-wrap: break-word;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #dish-heading {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+
+  #dish-content {
+    font-size: 1.5vw;
+  }
+  #dish-price {
+    font-size: 3vw;
+    top: 0.5rem;
+  }
+
+  #card-heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #dish-content {
+    font-size: 1.5vw;
+    top: 3vw;
+  }
+}
+/* iPhoneX (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+    #dish-content {
+    top: 3.5vw;
+  }
+    #dish-price {
+    top: 0.8rem;
+  }
+}
+/* iPhone6/7/8 Plus (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    #dish-content {
+    font-size: 1.7vw;
+    top: 4.5vw;
+  }
+  #dish-heading {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  #dish-price {
+    font-size: 3.5vw;
+    top: 1.9vw;
+  }
+  #card-heading {
+  font-size: 3vw;
+  font-weight: 700;
+}
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
+@media only screen and (min-width: 1224px) {
+  #dish-content {
+    font-size: 1.2vw;
+    top: 2.5vw;
+  }
+  #dish-heading {
+    font-size: 1.7vw;
+    font-weight: 600;
+  }
+  #dish-price {
+    font-size: 2.5vw;
+    top: 0.5rem;
+  }
+  #card-heading {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
+@media only screen and (min-width: 1824px) and (max-width: 2736px){
+  /* Styles */
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
 }

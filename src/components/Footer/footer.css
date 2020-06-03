@@ -1,97 +1,113 @@
-.footer-block{
-    font-family: 'Roboto', sans-serif;
-    display: block;
-    position: absolute;;
-    background-color: #33312eff;
-    width:inherit;
+.footer-block {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  position: absolute;
+  background-color: #33312eff;
+  width: inherit;
+  height: max-content;
 }
 
-.Res-block{
-    filter: opacity(87%);
-    padding: 1rem;
-    color: #ffffff  ;
+.Res-block {
+  filter: opacity(87%);
+  padding: 1rem;
+  color: #ffffff;
 }
-.Own-block{
-    filter: opacity(87%);
-    padding-top: 1rem;
-    color: #ffffff  ;
+.Own-block {
+  filter: opacity(87%);
+  padding-top: 1rem;
+  color: #ffffff;
 }
-ul{
-    margin-left: -2.4rem;
-}
-
-#res-name{
-    font-family: 'logotxt';
-    font-size: 0.9rem;
-    font-weight: 700;
-    filter: opacity(87%);
-}
- 
-
-#res-description{
-    font-size: 0.4rem;
-    font-weight: 400;
-    text-align: justify;
-    filter: opacity(60%);
-    position: relative;
-    line-height: 5px;
-    top: -1rem;
-    
-    
+ul {
+  margin-left: -2.4rem;
 }
 
-#hr-rule{
-    background:#fff;
-    margin-top: -1rem;
-    height: 1px;
-    filter: opacity(87%);
+#res-name {
+  font-family: "logotxt";
+  font-size: 0.9rem;
+  font-weight: 700;
+  filter: opacity(87%);
 }
-#res-address, #res-phone, a{
+
+#res-description {
+  font-size: 0.4rem;
+  font-weight: 400;
+  text-align: justify;
+  filter: opacity(60%);
+  position: relative;
+  line-height: 5px;
+  top: -1rem;
+}
+
+#hr-rule {
+  background: #fff;
+  margin-top: -1rem;
+  height: 1px;
+  filter: opacity(87%);
+}
+#res-address,
+#res-phone,
+a {
+  font-size: 0.6rem;
+  text-align: left;
+}
+#customer-query {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  filter: opacity(87%);
+  text-align: left;
+  color: white;
+}
+
+a:link {
+  color: #ffffff;
+}
+a:link:hover {
+  color: #1e827a;
+  font-weight: 600;
+}
+#reserved {
+  font-size: 0.6rem;
+  filter: opacity(38%);
+}
+
+ul#social li {
+  display: inline;
+  padding: 0.4rem;
+  padding-right: 1rem;
+  margin-left: -0.5rem;
+}
+
+.icon {
+  color: white;
+  filter: opacity(60%);
+  font-size: 2vw;
+}
+
+.icon:hover {
+  color: #1e827a;
+  font-size: 2.5vw;
+}
+
+ul#foot li {
+  display: inline;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  #res-name {
+    font-size: 1.5vw;
+  }
+  #res-description {
     font-size: 0.6rem;
-    text-align: left; 
-    
-}
-#customer-query{
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 0.6rem;
-    font-weight: 600;
-    filter: opacity(87%);
-    text-align:left;
-    color: white;
-}
-
-a:link{
-    color: #ffffff;
-}
-a:link:hover{
-    color: #1e827a;
-    font-weight: 600;
-}
-#reserved{
-    font-size: 0.6rem;
-    filter: opacity(38%);
-}
-
-
-
-ul#social li{
-    display: inline;
-    padding: 0.4rem;
-    padding-right: 1rem;
-    margin-left: -0.5rem;
-}
-
-.icon{
- color: white;
- filter: opacity(60%);
-font-size: 2vw;
-}
-
-.icon:hover{
- color: #1e827a;
-font-size: 2.5vw;
-}
-
-ul#foot li{
-    display: inline;
+    top: -0.9rem;
+  }
+  #res-address,
+  #res-phone,
+  a {
+    font-size: 1vw;
+  }
+  #customer-query {
+    font-size: 1vw;
+  }
 }

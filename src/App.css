@@ -46,3 +46,16 @@
    margin-bottom: 2rem;
    color: #eb4d4c
 }
+
+@media only screen and (min-width: 1224px) {
+  #head-txt{
+ 
+  font-size: 3.5vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  filter: opacity(87%);  
+   margin-bottom: 2rem;
+   color: #eb4d4c
+}
+
+}

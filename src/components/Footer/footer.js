@@ -27,16 +27,14 @@ function FooterRes() {
             <li>
               <ul type="none" id="social">
                 <li>
-                  <a
-                    href="https://www.facebook.com/cocinadelosabuelosqro/"
-                    className="fa fa-facebook-square icon"
-                  ></a>
+                  <a href="https://www.facebook.com/cocinadelosabuelosqro/"
+                    className="fa fa-facebook-square icon">
+                  </a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/lacocinadelosabuelos/"
-                    className="fa fa-instagram icon"
-                  ></a>
+                  <a href="https://www.instagram.com/lacocinadelosabuelos/"
+                    className="fa fa-instagram icon">
+                  </a>
                 </li>
               </ul>
             </li>
