@@ -11,11 +11,15 @@
   filter: opacity(87%);
   padding: 1rem;
   color: #ffffff;
+   float: left;
+
 }
 .Own-block {
   filter: opacity(87%);
   padding-top: 1rem;
   color: #ffffff;
+  float: right;
+  
 }
 ul {
   margin-left: -2.4rem;
