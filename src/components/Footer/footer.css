@@ -1,29 +1,21 @@
-.footer-block {
+.footer-block{
   font-family: "Roboto", sans-serif;
-  display: block;
-  position: absolute;
   background-color: #33312eff;
-  width: inherit;
-  height: max-content;
 }
 
 .Res-block {
-  filter: opacity(87%);
-  padding: 1rem;
-  color: #ffffff;
-   float: left;
-
-}
-.Own-block {
-  filter: opacity(87%);
+  filter: opacity(60%);
   padding-top: 1rem;
   color: #ffffff;
-  float: right;
-  
 }
-ul {
-  margin-left: -2.4rem;
+
+.Own-block {
+  filter: opacity(60%);
+  padding-top: 1rem;
+  color: #ffffff;
+ 
 }
+
 
 #res-name {
   font-family: "logotxt";
@@ -33,29 +25,32 @@ ul {
 }
 
 #res-description {
+  font-family: 'Roboto', sans-serif;
   font-size: 0.4rem;
   font-weight: 400;
-  text-align: justify;
+  text-align: left;
   filter: opacity(60%);
-  position: relative;
-  line-height: 5px;
-  top: -1rem;
 }
 
 #hr-rule {
   background: #fff;
-  margin-top: -1rem;
-  height: 1px;
   filter: opacity(87%);
 }
+#res-address{
+  font-family:'Roboto', sans-serif;
+  filter: opacity(87%);
+  font-weight: 400;
+}
+
 #res-address,
 #res-phone,
 a {
   font-size: 0.6rem;
   text-align: left;
 }
+
 #customer-query {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.6rem;
   font-weight: 600;
   filter: opacity(87%);
@@ -71,31 +66,26 @@ a:link:hover {
   font-weight: 600;
 }
 #reserved {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color:#ffffff ;
   filter: opacity(38%);
+  padding: 1rem;
 }
 
-ul#social li {
-  display: inline;
-  padding: 0.4rem;
-  padding-right: 1rem;
-  margin-left: -0.5rem;
-}
 
 .icon {
   color: white;
   filter: opacity(60%);
-  font-size: 2vw;
+  font-size: 1rem;
 }
 
 .icon:hover {
   color: #1e827a;
-  font-size: 2.5vw;
+  font-size: 1.6rem;
 }
 
-ul#foot li {
-  display: inline;
-}
+
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
@@ -104,7 +94,6 @@ ul#foot li {
   }
   #res-description {
     font-size: 0.6rem;
-    top: -0.9rem;
   }
   #res-address,
   #res-phone,
@@ -114,4 +103,12 @@ ul#foot li {
   #customer-query {
     font-size: 1vw;
   }
+  #reserved {
+  font-size: 1rem;
+}
+.Own-block {
+line-height: 2vw;
+ 
+}
+
 }

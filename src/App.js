@@ -25,7 +25,9 @@ function App() {
             <p id="head-txt">Menu</p>
           </div>
         </Row>
-        <Row><ChatBot  /></Row>
+        <Row>
+          <ChatBot />
+        </Row>
         <Row></Row>
         <Row className="justify-content-center">
           <Col>
@@ -45,14 +47,19 @@ function App() {
         <Row className="justify-content-center">
           <SeeOff />
         </Row>
-        <Row className="footer-block" fluid>
-          <Col xs={6} >
-            <FooterRes />
-          </Col>
-          <Col xs={6}>
-            <FooterOwn />
-          </Col>
-        </Row>
+        <footer>
+          <Row className="footer-block justify-content-center ">
+            <Col xs={6}>
+              <FooterRes />
+            </Col>
+            <Col xs={6}>
+              <FooterOwn />
+            </Col>
+            <div id="reserved">
+              All Right Reserved <br /> La Cocina de los Albuelos © 2020
+            </div>
+          </Row>
+        </footer>
       </Container>
     </>
   );
