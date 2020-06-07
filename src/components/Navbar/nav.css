@@ -47,6 +47,10 @@ $color5: #33312eff; */
   color: #ffffff;
   background-color: #1e827a;
 }
+#nav-link.dropdown-item:hover{
+  color: #ffffff;
+  background-color: #1e827a;
+}
 #nav-link:hover {
   color: #1e827a;
 }
