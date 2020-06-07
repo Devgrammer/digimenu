@@ -19,15 +19,30 @@ function FooterRes() {
               Anillo Vial Fray Junípero Serra 10100, El Refugio, 76246 Santiago
               de Querétaro Querétaro
             </div>
-            <a href="tel:+521 442 751 2141" className="fa fa-phone-square" id="res-phone">
+            <a
+              href="tel:+521 442 751 2141"
+              className="fa fa-phone-square"
+              id="res-phone"
+            >
               &nbsp; &nbsp;+521 442 751 2141
             </a>
             <div>
-              <a href="https://www.facebook.com/cocinadelosabuelosqro/"
-                className="fa fa-facebook-square icon">
-              </a> &nbsp;
-              <a href="https://www.instagram.com/lacocinadelosabuelos/"
-                className="fa fa-instagram icon">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/cocinadelosabuelosqro/"
+                className="fa fa-facebook-square icon"
+              >
+                {" "}
+              </a>
+              &nbsp;
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/lacocinadelosabuelos/"
+                className="fa fa-instagram icon"
+              >
+                {" "}
               </a>
             </div>
           </div>
@@ -60,9 +75,18 @@ function FooterOwn() {
         &nbsp;ventas.digitalizatumenu@gmail.com
       </a>
       <div>
-        <a href="https://www.facebook.com/digitalizatumenu" className="fa fa-facebook-square icon">
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="# " className="fa fa-instagram icon"></a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/digitalizatumenu"
+          className="fa fa-facebook-square icon"
+        >
+          {" "}
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="# " target="_blank" className="fa fa-instagram icon">
+          {" "}
+        </a>
       </div>
     </div>
   );

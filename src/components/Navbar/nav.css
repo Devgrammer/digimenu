@@ -35,15 +35,22 @@ $color5: #33312eff; */
 }
 
 #nav-link {
+  color: #000000;
+  filter: opacity(60%);
   font-size: 4vw;
 }
 
 #nav-link:focus {
   color: #1e827a;
 }
+#nav-link.dropdown-item.active{
+  color: #ffffff;
+  background-color: #1e827a;
+}
 #nav-link:hover {
   color: #1e827a;
 }
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

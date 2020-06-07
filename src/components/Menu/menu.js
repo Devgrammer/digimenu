@@ -414,7 +414,7 @@ function Menu() {
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="6">
-              <Card.Body>
+              <Card.Body >
                 <ul className="list-unstyled">
                   <Media as="li" id="media-block">
                     <Image
@@ -437,7 +437,7 @@ function Menu() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card >
+          <Card>
             <Card.Header>
               <Accordion.Toggle
                 as={Button}
@@ -448,10 +448,10 @@ function Menu() {
                 SOPES
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey="7" >
+            <Accordion.Collapse eventKey="7">
               <Card.Body>
-                <ul className="list-unstyled" >
-                  <Media as="li" id="media-block" >
+                <ul className="list-unstyled">
+                  <Media as="li" id="media-block">
                     <Image
                       width={64}
                       height={64}
@@ -460,7 +460,7 @@ function Menu() {
                       alt="Generic placeholder"
                       rounded
                     />
-                    <Media.Body >
+                    <Media.Body>
                       <p id="dish-heading">Friijol, Crema y Queso</p>
                       <p id="dish-content">Fabulosos Sopes Sencillos</p>
                       <p id="dish-price"> $28</p>
