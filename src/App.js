@@ -26,7 +26,7 @@ function App() {
           </div>
         </Row>
         <Row>
-          <ChatBot />
+          {/* <ChatBot /> */}
         </Row>
         <Row></Row>
         <Row className="justify-content-center">
