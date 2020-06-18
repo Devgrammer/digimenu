@@ -53,7 +53,7 @@ function App() {
               <FooterOwn />
             </Col>
             <div id="reserved">
-              <img src={"./img/dtm_logo.png"} width='80' height='35' /><br />
+              <img src={"./img/dtm_logo.png"} width='80' height='35' alt=" "/><br />
               All Right Reserved <br /> DigitilizatuMenu © 2020
             </div>
           </Row>
