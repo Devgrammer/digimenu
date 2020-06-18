@@ -56,7 +56,8 @@ function App() {
               <FooterOwn />
             </Col>
             <div id="reserved">
-              All Right Reserved <br /> La Cocina de los Albuelos © 2020
+              <img src={"./img/dtm_logo.png"} width='80' height='35' /><br />
+              All Right Reserved <br /> DigitilizatuMenu © 2020
             </div>
           </Row>
         </footer>

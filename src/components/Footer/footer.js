@@ -74,6 +74,16 @@ function FooterOwn() {
       >
         &nbsp;ventas.digitalizatumenu@gmail.com
       </a>
+      <br />
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://digitalizatumenu.netlify.app"
+        className="	fa fa-globe"
+        id="res-phone"
+      >
+        &nbsp;Digitalizatumenu
+      </a>
       <div>
         <a
           target="_blank"
